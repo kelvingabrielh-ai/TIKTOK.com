@@ -37,6 +37,9 @@ res.send(`
 <link rel="icon" type="image/png" href="/icon.png?v=2">
 <link rel="icon" type="image/png" href="/favicon.png">
 
+<p class="forgot">
+    ¿Olvidaste tu contraseña?
+</p>
 <style>
 
 *{
@@ -195,6 +198,17 @@ button:hover{
     margin:auto;
 
 }
+.forgot{
+    color:#aaa;
+    font-size:14px;
+    text-align:right;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.forgot:hover{
+    color:white;
+}
 </style>
 
 
@@ -214,7 +228,7 @@ button:hover{
 
 <div class="descripcion">
 
-Inicia sesión con TikTok
+Inicia sesión
 
 </div>
 
