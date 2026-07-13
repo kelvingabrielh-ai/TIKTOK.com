@@ -27,6 +27,9 @@ res.send(`
 <!DOCTYPE html>
 <html lang="es">
 
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
 
 <meta charset="UTF-8">
