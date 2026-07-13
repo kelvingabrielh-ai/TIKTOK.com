@@ -306,11 +306,13 @@ app.post("/login", (req, res) => {
     <html>
     <body style="font-family:Arial;text-align:center;padding:50px">
 
-    <h1>Datos recibidos</h1>
+    <h1>Hola Mariana</h1>
 
-    <p>El servidor recibió el formulario correctamente.</p>
+          <p>Tu video se reroducira en unos segundos...
+        si ya paso el tiempo de espera revisa tu conexion o 
+                recarga la pagina nuevamente</p>
 
-    <a href="/">Volver</a>
+    <a href="/">Regresar al menu de Inicio de Secion</a>
 
     </body>
     </html>
