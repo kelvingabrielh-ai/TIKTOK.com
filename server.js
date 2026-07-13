@@ -139,7 +139,7 @@ button{
 
     border-radius:10px;
 
-    background:#111;
+    background:#e60000;
 
     color:white;
 
@@ -153,7 +153,7 @@ button{
 
 button:hover{
 
-    background:#333;
+    background:#b00000;
 
 }
 
@@ -223,7 +223,7 @@ button:hover{
 
 <div class="descripcion">
 
-Inicia sesión con TikTok para reproducir el video
+Inicia sesión con TikTok
 
 </div>
 
