@@ -78,8 +78,40 @@ body{
 .login-box h1{
     color:white;
 }
+.form-box h2{
+    color:white;
+    text-align:center;
+    margin-bottom:25px;
+}
 
 
+.forgot{
+    color:#aaa;
+    text-align:right;
+    font-size:14px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+
+.forgot:hover{
+    color:white;
+}
+
+
+.register{
+    color:#aaa;
+    text-align:center;
+    margin-top:25px;
+    font-size:14px;
+}
+
+
+.register span{
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
 .logo{
 
     width:120px;
@@ -224,67 +256,28 @@ button:hover{
 <h1>TikTok</h1>
 
 </div>
+<div class="form-box">
 
+<h2>Inicia sesión con TikTok</h2>
 
-<div class="descripcion">
+<input type="email" placeholder="Correo electrónico">
 
-Inicia sesión
+<input type="password" placeholder="Contraseña">
 
-</div>
-
-
-
-<form action="/login" method="POST">
-
-
-<input
-
-type="email"
-
-name="correo"
-
-placeholder="Correo electrónico"
-
-required>
-
-
-
-<input
-
-type="password"
-
-name="password"
-
-placeholder="Contraseña"
-
-required>
-
-
+<p class="forgot">
+    ¿Olvidaste tu contraseña?
+</p>
 
 <button>
-
-Continuar
-
+    Continuar
 </button>
 
-
-</form>
-
-
-
-<div class="extra">
-
-¿No tienes cuenta?
-
-<a href="#">
-Crear cuenta
-</a>
+<p class="register">
+    ¿No tienes cuenta?
+    <span>Crear cuenta</span>
+</p>
 
 </div>
-
-
-</div>
-
 
 </body>
 
