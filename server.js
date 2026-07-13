@@ -204,7 +204,13 @@ button:hover{
     display:block;
     margin:auto;
 }
-
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+}
 </style>
 
 
@@ -217,8 +223,8 @@ button:hover{
 <div class="login-box">
 
 
-<img src="logo.png" class="logo-img">
-<h2>TikTok</h2>
+<img src="/icon.png" class="logo">
+<h1>TikTok</h1>
 
 </div>
 
