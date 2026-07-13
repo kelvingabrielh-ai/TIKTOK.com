@@ -282,6 +282,7 @@ required>
     Continuar
 </button>
 
+
 <p class="register">
     ¿No tienes cuenta?
     <span>Crear cuenta</span>
@@ -292,19 +293,20 @@ required>
 </div>
 
 `);
-
+ 
 });
-
-
-
 
 app.post("/login", (req, res) => {
 
     const correo = req.body.correo;
     const password = req.body.password;
+
     console.log("Correo recibido:", correo);
-    console.log("password recibida:",password);
+    console.log("password recibida:", password);
+
     res.send(`
+
+
 
     <!DOCTYPE html>
     <html>
