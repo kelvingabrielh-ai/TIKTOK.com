@@ -288,13 +288,13 @@ required>
     <span>Crear cuenta</span>
 </p>
 
-</form>
-
 </div>
 
 `);
- 
+
 });
+
+
 
 app.post("/login", (req, res) => {
 
